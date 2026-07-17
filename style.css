@@ -7,8 +7,11 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+
 }
 
+ 
 /*index.html------------*/
 img {
   width: 100%;
@@ -25,6 +28,11 @@ header h1{
     padding: 1rem;
 }
 
+header h1 a{
+    font-weight: bold;
+    color: #333;
+ }
+
 nav ul{
     padding-bottom: 1rem;
     text-align: left;
@@ -39,7 +47,14 @@ nav ul li a{
     font-weight: bold;
     color: #333;
 }
-    
+
+nav ul li a:hover {
+  /* 任意のプロパティ設定 */
+   
+  color:rgb(0, 162, 125);
+
+  transition: color 0.3s; /* 色の変化を滑らかにする */
+}
 
 footer{
     background: #333;
@@ -76,26 +91,23 @@ main{
     height: 160px;
 
 }
+.about main{
+    text-align: center;
+}
 
 /*------------------------*/
 
 
 /*favorite.html-----------*/
-.favoritepage main{
-    padding: 1rem;
-    flex-grow: 1;
-    margin: 0 auto;
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
+.favoritepage #text{
+  text-align: center;
 }
 
 .container{
   /* display: flex; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 0px 20px;
+  gap: 0px 100px;
 }
 
 .section01{
@@ -110,6 +122,8 @@ main{
 
 }
 /*------------------------*/
+
+
 
 
 
