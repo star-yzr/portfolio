@@ -177,6 +177,13 @@ body{
     height: 100%;
 }
 
+#wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
 
 
 main{
@@ -293,10 +300,6 @@ nav {
 
 }
 
-#wrap {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  overflow: hidden;
-}
+
+
 /*-------------------*/
