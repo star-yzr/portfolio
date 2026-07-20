@@ -175,6 +175,8 @@ footer{
 
 body{
     height: 100%;
+   
+
 }
 
 #wrap {
@@ -182,6 +184,7 @@ body{
   flex-direction: column;
   min-height: 100vh;
   overflow: hidden;
+  
 }
 
 
@@ -191,16 +194,16 @@ main{
   max-width: 1200px;
   margin: 0 auto;
   padding:1rem;
-  padding-top: 113px;
+  padding-top: 0px;
   flex-grow: 1;
     
     
 }
 
-.wrap{
+.text{
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 
