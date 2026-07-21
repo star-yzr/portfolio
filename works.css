@@ -42,6 +42,7 @@ header {
   margin-top: 40px;
   margin-bottom: 80px;
   position: relative;
+  --swiper-navigation-color:rgb(0, 174, 142);
 }
 
 .swiper-slide {
